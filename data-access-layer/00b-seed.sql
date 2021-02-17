@@ -8,7 +8,7 @@
 -- user.
 
 -- YOUR CODE HERE
--- psql -d recipe_box -U recipe_box_app
+SET ROLE recipe_box_app;
 
 
 
